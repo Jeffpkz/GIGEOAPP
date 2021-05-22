@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>GIGEO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CDN Iconos-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--Fuentes Externas Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <!---Mi Estilo Boostrap CSS-->
+    <link rel="stylesheet" href="./sass/../assets/css/style.css">
+</head>
+<body>
+    <!-- Creacion del nav bar -->
+
+    <nav class="container nav-bar">
+        <a class="nav-bar__brand text-uppercase" href="#">GIGEO</a><sup
+            class="nav-bar__brand--sup text-uppercase">art</sup>
+        <section class="container">
+            <ul class="nav-bar__menu">
+                <li class="nav-bar__icon nav-bar__icon--hide"><i class="fas fa-search "></i></li>
+                <li class="nav-bar__icon nav-bar__icon--hide"><i class="fas fa-video "></i></li>
+                <li class="nav-bar__icon nav-bar__icon--hide"><i class="fas fa-plus "></i></li>
+                <li class="nav-bar__icon nav-bar__icon--hide"><i class="far fa-bell "></i></li>
+                <li class="nav-bar__icon nav-bar__icon--display nav-bar__icon--gris "><i class="fas fa-bars"></i></li>
+            </ul>
+        </section>
+    </nav>
+
+    <!-- Creacion del Header de la web -->
+
+    <header class="header">
+        <div class="header__banner"></div>
+        <section class="header__wrapper row">
+            <div class="header__autor col-lg-6">
+                <img class="header__autor--col" src="./assets/img/profile-image.png" alt="Foto de Yuki Mukami">
+                <div class="header__autor--col">
+                    <h1>Yuki Mukami</h1>
+                    <p>30.000 seguidores</p>
+                </div>
+            </div>
+            <div class="header__btn col-lg-6">
+                <button type="button" class="btn btn_msg">Mensaje</button>
+                <button type="button" class="btn btn_follow">Seguir</button>
+            </div>
+        </section>        
+    </header>
+
+    <!-- Contenido Principal de la web -->
+
+    <main class="main">
+        <h2>Videos Populares</h2>
+        <section class="row">
+            <article class="main__post col-12 col-md-6 col-lg-3">
+                <img class="video_thumbnail" src="./assets/img/image-1.png" alt="Video 1">
+                <h4>Después de la vela - Yuki Mukami</h4>
+                <p>16k vistas - 1 semana atrás</p>
+            </article>
+
+            <article class="main__post col-12 col-md-6 col-lg-3">
+                <img class="video_thumbnail" src="./assets/img/image-2.png" alt="Video 2">
+                <h4>Far Away - Yuki Mukami</h4>
+                <p>100k vistas - 1 mes atrás</p>
+            </article>
+
+            <article class="main__post col-12  col-md-6 col-lg-3">
+                <img class="video_thumbnail" src="./assets/img/image-3.png" alt="Video 3">
+                <h4>City - Yuki Mukami</h4>
+                <p>20k vistas - 1 mes atrás</p>
+            </article>
+
+            <article class="main__post col-12 col-md-6 col-lg-3">
+                <img class="video_thumbnail" src="./assets/img/image-4.png" alt="Video 4">
+                <h4>A Yuki Tale - Yuki Mukami</h4>
+                <p>1m vistas - 1 año atrás</p>
+            </article>
+
+            <article class="main__post col-12 col-md-6 col-lg-3">
+                <img class="video_thumbnail" src="./assets/img/image-5.png" alt="Video 5">
+                <h4>Mapocho - Yuki Mukami</h4>
+                <p>100k vistas - 1 mes atrás</p>
+            </article>
+
+            <article class="main__post col-12 col-md-6 col-lg-3">
+                <img class="video_thumbnail" src="./assets/img/image-6.png" alt="Video 6">
+                <h4>Luky Days - Yuki Mukami</h4>
+                <p>40k vistas - 3 meses atrás</p>
+            </article>
+
+            <article class="main__post col-12 col-md-6 col-lg-3">
+                <img class="video_thumbnail" src="./assets/img/image-7.png" alt="Video 7">
+                <h4>30 days in My House</h4>
+                <p>10k vistas - 4 meses atrás</p>
+            </article>
+
+            <article class="main__post col-12 col-md-6 col-lg-3">
+                <img class="video_thumbnail" src="./assets/img/image-8.png" alt="Video 8">
+                <h4>Santiago - Yuki Mukami</h4>
+                <p>40k vistas - 3 meses atrás</p>
+            </article>
+        </section>
+    </main>
+
+<!--Jquery v3.6.0  SIN SLIM-->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<!--Popper JS v1.16.1-->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<!--Boostrap JS v4.6.0-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
+
